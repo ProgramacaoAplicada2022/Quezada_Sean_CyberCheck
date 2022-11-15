@@ -1,0 +1,475 @@
+// Só substituir o Ç pelo número
+
+
+//TEMPLATE DE 5 TIPO1 (só 1 resposta)
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:colorÇ===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            colorÇ===1 ? setColorÇ(0) : setColorÇ(1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:colorÇ===2? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            colorÇ===2 ? setcolorÇ(0) : setcolorÇ(2)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 2 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:colorÇ===3? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            colorÇ===3 ? setcolorÇ(0) : setcolorÇ(3)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 3 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:colorÇ===4? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            colorÇ===4 ? setcolorÇ(0) : setcolorÇ(4)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 4 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:colorÇ===5? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            colorÇ===5 ? setcolorÇ(0) : setcolorÇ(5)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 5 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle            [Ç+1]           ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle           [Ç+1]           ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
+
+
+
+
+// TEMPLATE COM 5 TIPO2
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    console.log(colorÇ)
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&1)===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&1)===1 ? setColorÇ(colorÇ-1) : setColorÇ(colorÇ+1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&2)===2? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&2)===2 ? setColorÇ(colorÇ-2) : setColorÇ(colorÇ+2)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 2 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&4)===4? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&4)===4 ? setColorÇ(colorÇ-4) : setColorÇ(colorÇ+4)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 3 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&8)===8? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&8)===8 ? setColorÇ(colorÇ-8) : setColorç(colorÇ+8)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 4 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&16)===16? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&16)===16 ? setColorÇ(colorÇ-16) : setColorÇ(colorÇ+16)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 5 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle    Ç-1    ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle   Ç+1    ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
+
+// TEMPLATE COM 4 TIPO2
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    console.log(colorÇ)
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&1)===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&1)===1 ? setColorÇ(colorÇ-1) : setColorÇ(colorÇ+1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&2)===2? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&2)===2 ? setColorÇ(colorÇ-2) : setColorÇ(colorÇ+2)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 2 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&4)===4? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&4)===4 ? setColorÇ(colorÇ-4) : setColorÇ(colorÇ+4)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 3 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&8)===8? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&8)===8 ? setColorÇ(colorÇ-8) : setColorç(colorÇ+8)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 4 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle    Ç-1    ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle   Ç+1    ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
+
+
+
+// TEMPLATE COM 3 TIPO2
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    console.log(colorÇ)
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&1)===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&1)===1 ? setColorÇ(colorÇ-1) : setColorÇ(colorÇ+1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&2)===2? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&2)===2 ? setColorÇ(colorÇ-2) : setColorÇ(colorÇ+2)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 2 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&4)===4? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&4)===4 ? setColorÇ(colorÇ-4) : setColorÇ(colorÇ+4)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 3 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle    Ç-1    ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle   Ç+1    ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
+
+
+
+// TEMPLATE COM 2 TIPO2
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    console.log(colorÇ)
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&1)===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&1)===1 ? setColorÇ(colorÇ-1) : setColorÇ(colorÇ+1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&2)===2? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&2)===2 ? setColorÇ(colorÇ-2) : setColorÇ(colorÇ+2)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 2 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle    Ç-1    ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle   Ç+1    ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
+
+
+
+
+// TEMPLATE COM 1 TIPO2
+var cntÇ=0
+const ControleÇ = () =>{
+    const [colorÇ, setColorÇ] = useState(0)
+    const navigation = useNavigation();
+    console.log(colorÇ)
+    return (
+        <SafeAreaView style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+            <View style={{height:'82%', width:'90%', backgroundColor:'white', alignItems:'center', paddingBottom:20, borderRadius:25,shadowColor: "#000",
+                shadowOffset: {
+                width: 0,
+                height: 5,
+                },
+                shadowOpacity: 0.36,
+                shadowRadius: 6.68,
+
+                elevation: 11,}}>
+                <View style={{flex:1.5, width:'85%', padding:10,marginTop:15, marginBottom:5, borderRadius:15, borderWidth:0, alignItems:'center'}}>
+                    <Text> Qual a melhor comida do brasil</Text>
+                </View>
+                <View style={{flex:1, width:'75%',backgroundColor:(colorÇ&1)===1? '#92c5f7' :'white', padding:10,marginTop:25, marginBottom:5, borderRadius:15, borderColor:'#3195f7', borderWidth:1}}>
+                    <TouchableOpacity
+                        onPress={() => {
+                            (colorÇ&1)===1 ? setColorÇ(colorÇ-1) : setColorÇ(colorÇ+1)
+                        }}
+                        style={{flex:1}}
+                    >
+                    <Text> Op 1 </Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            <View style={{flexDirection:'row', width:'80%', marginTop:15}}>
+                <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                    <TouchableOpacity
+                        onPress={() => navigation.navigate("Controle    Ç-1    ")}
+                    ><Entypo name="chevron-left" size={38} color="white" />
+                    </TouchableOpacity>
+                </View>
+                <View style={{flex:1, alignItems: 'flex-end'}}>
+                    <View style={{height:50, width:60, borderRadius:10, backgroundColor:'#0782F9', alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                cntÇ=colorÇ
+                                navigation.navigate("Controle   Ç+1    ")}}
+                            style={{paddingLeft:1}}
+                        ><Entypo name="chevron-right" size={38} color="white" />
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </View>
+        </SafeAreaView>
+    );
+}
