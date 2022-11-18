@@ -6,13 +6,12 @@ import "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDER9MHS6Ext43RHVpD2ZTNHKiTIbW7stw",
-  authDomain: "cybercheck-415b3.firebaseapp.com",
-  projectId: "cybercheck-415b3",
-  storageBucket: "cybercheck-415b3.appspot.com",
-  messagingSenderId: "427335100173",
-  appId: "1:427335100173:web:dbbd9ac50dd49f9504f244",
-  measurementId: "G-GLK13KZJ6G"
+  apiKey: "AIzaSyDFz9yfqnPg9aD-KZVsEHZvoPSeGtNNsdU",
+  authDomain: "fireavals.firebaseapp.com",
+  projectId: "fireavals",
+  storageBucket: "fireavals.appspot.com",
+  messagingSenderId: "132477215154",
+  appId: "1:132477215154:web:6d42db28fa06409dc944ab"
 };
 // Initialize Firebase
 let app;
