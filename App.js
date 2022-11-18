@@ -8,7 +8,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import {Home, Relatorio, Profile, Ajuda, Assinatura, Avals , TermosDeUso, TermosDeUso2, Configs, Avalia, 
     Controle1, Controle2, Controle3, Controle4, Controle5, Controle6, Controle7, Controle8, Controle9, Controle10, Controle11, Controle12, Controle13, Controle14, Controle15, 
     Controle16, Controle17, Controle18, Controle19, Controle20
-} from "./screens/index";
+} from "./screens/index"; 
 import RegisterScreen from './screens/RegisterScreen'
 import DrawerContent from './screens/nav/DrawerContent'
 const Drawer = createDrawerNavigator();
