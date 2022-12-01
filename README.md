@@ -48,7 +48,7 @@ Automaticamente serão instaladas as principais bibliotecas restantes <br />
 Após basta acessar o QR code fornecido pelo terminal e acessar o aplicativo pelo Expo Go.
 
 OBS: o celular deve estar conectado na mesma rede que o computador
-
+OBS2: para parar o servidor a qualquer momento basta um control c no terminal
 
 # 4) Interface do Aplicativo
 
