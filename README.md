@@ -45,6 +45,10 @@ npx expo start <br />
 
 Automaticamente serão instaladas as principais bibliotecas restantes <br />
 
+Após basta acessar o QR code fornecido pelo terminal e acessar o aplicativo pelo Expo Go.
+
+OBS: o celular deve estar conectado na mesma rede que o computador
+
 
 # 4) Interface do Aplicativo
 
