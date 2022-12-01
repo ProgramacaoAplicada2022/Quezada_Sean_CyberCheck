@@ -17,3 +17,17 @@ Será possível criar uma conta para fazer os registros dos dados do usuário, j
 ### Avaliar vulnerabilidades cibernéticas 
 
 A funcionalidade principal do programa é avaliar se a segurança cibernética de uma empresa ou instituição está boa o suficiente, através de questionários e pedidos. As respostas serão julgadas e armazenadas, sendo utilizadas para enviar à conta do usuário propostas de melhoria.
+
+
+# 2) Instalação
+
+O aplicativo usa a plataforma Expo que vem do react, para isso devemos instalar diversar bibliotecas além do aplicativo Expo Go para Android e iOS.
+OBS: Partimos do príncipio que o visual studio code ou similar já está instalado na máquina do usuário.
+
+## Windows e MacOS
+
+instalar o node - https://nodejs.org/en/
+instalar o yarn via npm - https://classic.yarnpkg.com/en/docs/install#mac-stable
+instalar a extensão do expo para visual studio - https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo
+
+
