@@ -35,3 +35,6 @@ instalar a extensão do expo para visual studio - https://marketplace.visualstud
 Expo Go para android - https://play.google.com/store/apps/details?id=host.exp.exponent <br />
 Expo Go para iOS - https://apps.apple.com/app/expo-go/id982107779 <br />
 
+# 3) Teste do Aplicativo
+Após a instalação de todas as bibliotecas necessárias, vamos inicar um servidor direto do terminal usando <br />
+npx expo start
