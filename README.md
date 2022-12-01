@@ -21,7 +21,7 @@ A funcionalidade principal do programa é avaliar se a segurança cibernética d
 
 # 2) Instalação
 
-O aplicativo usa a plataforma Expo que vem do react, para isso devemos instalar diversar bibliotecas além do aplicativo Expo Go para Android e iOS.
+O aplicativo usa a plataforma Expo que vem do react, para isso devemos instalar diversar bibliotecas além do aplicativo Expo Go para Android e iOS.<br />
 OBS: Partimos do príncipio que o visual studio code ou similar já está instalado na máquina do usuário.
 
 ## Windows e MacOS
