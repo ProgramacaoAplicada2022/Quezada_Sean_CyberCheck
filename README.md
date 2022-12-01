@@ -1,5 +1,5 @@
 # CyberCheck
-# Membros: Quezada, Sean Lebeis
+# Membros: Quezada e Sean Lebeis
 # 1) Proposta de projeto
 
 ## Motivação
