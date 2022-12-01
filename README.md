@@ -53,3 +53,5 @@ OBS2: para parar o servidor a qualquer momento basta um control c no terminal
 # 4) Interface do Aplicativo
 
 ![image](https://user-images.githubusercontent.com/114265258/205094932-63807ba6-7988-4685-95d2-9d1da144038c.png)
+![image](https://user-images.githubusercontent.com/114265258/205095407-56472097-c9a6-4d5b-ab62-44d67ffb28b9.png)
+![image](https://user-images.githubusercontent.com/114265258/205095690-e315b223-794a-4192-af8b-5fb0f84ebf22.png)
