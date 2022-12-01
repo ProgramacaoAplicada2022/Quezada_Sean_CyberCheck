@@ -30,6 +30,8 @@ instalar o node LTS - https://nodejs.org/en/ <br />
 instalar o yarn via npm (direto do terminal)- https://classic.yarnpkg.com/en/docs/install#mac-stable <br />
 instalar a extensão do expo para visual studio - https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo <br />
 
+OBS : caso a máquina não reconheça o npm usar o código : npm config get prefix <br />
+
 ## Android e iOS
 
 Expo Go para android - https://play.google.com/store/apps/details?id=host.exp.exponent <br />
