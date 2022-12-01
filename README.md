@@ -39,6 +39,10 @@ Expo Go para iOS - https://apps.apple.com/app/expo-go/id982107779 <br />
 
 # 3) Teste do Aplicativo
 Após a instalação de todas as bibliotecas necessárias, vamos inicar um servidor direto do terminal usando <br />
-npx expo start
+npx expo start <br />
+
+Automaticamente serão instaladas as principais bibliotecas restantes <br />
+
+
 # 4) Interface do Aplicativo
 
