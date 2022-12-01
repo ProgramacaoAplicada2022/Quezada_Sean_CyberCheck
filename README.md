@@ -29,8 +29,10 @@ OBS: Partimos do príncipio que o visual studio code ou similar já está instal
 instalar o node LTS - https://nodejs.org/en/ <br />
 instalar o yarn via npm (direto do terminal)- https://classic.yarnpkg.com/en/docs/install#mac-stable <br />
 instalar a extensão do expo para visual studio - https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo <br />
+instalar o expo (direto do terminal): yarn add expo
 
-OBS : caso a máquina não reconheça o npm usar o código : npm config get prefix <br />
+OBS1 : caso a máquina não reconheça o npm usar o código : npm config get prefix <br />
+OBS2 (Wndows)) : Sempre abrir o visual studio no modo administrador <br />
 
 ## Android e iOS
 
