@@ -26,8 +26,12 @@ OBS: Partimos do príncipio que o visual studio code ou similar já está instal
 
 ## Windows e MacOS
 
-instalar o node - https://nodejs.org/en/
-instalar o yarn via npm - https://classic.yarnpkg.com/en/docs/install#mac-stable
-instalar a extensão do expo para visual studio - https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo
+instalar o node - https://nodejs.org/en/ <br />
+instalar o yarn via npm - https://classic.yarnpkg.com/en/docs/install#mac-stable <br />
+instalar a extensão do expo para visual studio - https://marketplace.visualstudio.com/items?itemName=byCedric.vscode-expo <br />
 
+## Android e iOS
+
+Expo Go para android - https://play.google.com/store/apps/details?id=host.exp.exponent <br />
+Expo Go para iOS - https://apps.apple.com/app/expo-go/id982107779 <br />
 
