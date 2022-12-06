@@ -16,7 +16,7 @@ Será possível criar uma conta para fazer os registros dos dados do usuário, j
 
 ### Avaliar vulnerabilidades cibernéticas 
 
-A funcionalidade principal do programa é avaliar se a segurança cibernética de uma empresa ou instituição está boa o suficiente, através de questionários e pedidos. As respostas serão julgadas e armazenadas, sendo utilizadas para enviar à conta do usuário propostas de melhoria.
+A funcionalidade principal do programa é avaliar se a segurança cibernética de uma empresa ou instituição está boa o suficiente, através de uma série de perguntas. As respostas serão julgadas e armazenadas, sendo utilizadas para enviar à conta do usuário propostas de melhoria.
 
 
 # 2) Instalação
