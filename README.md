@@ -6,7 +6,7 @@
 
 Atualmente nas grandes empresas, é de suma importância considerar o risco de ataques cibernéticos a seus servidores e bancos de dados. Nesse contexto, surge a ideia de um aplicativo que funciona como um acessor de segurança cibernética, avaliando se os recursos online da empresa estão devidamente protegidos.
 
-Assim, surge a ideia do **CyberCheck**, um programa de segurança, que ajuda o usuário a avaliar o quão protegidos estão os dados de seu interesse.
+Assim, surge a ideia do **CyberCheck**, um programa de segurança, que ajuda o usuário a avaliar o quão protegidos estão os dados de seu interesse. O propósito do aplicativo é servir como um facilitador para o consultor de cybersegurança, no qual o usuário poderá armazenar o resultado de múltiplas avaliações em um banco de dados, e receber soluções baseadas nas normas CIS Top 20.
 
 ## Principais Funcionalidades
 
